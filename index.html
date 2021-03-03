@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Form</title>
+    </head>
+    <body>
+        <h1 id="heading">Order a celebration card:</h1>
+
+        <section id="card-form">
+            <form>
+                <input type="radio" id="birthday" name="celebrationType" value="birthday">
+                    <label for="birthday">Birthday</label><br>
+                <input type="radio" id="wedding" name="celebrationType" value="wedding">
+                    <label for="wedding">Wedding</label><br>
+                <input type="radio" id="Christmas" name="celebrationType" value="Christmas">
+                    <label for="Christmas">Christmas</label><br>
+                </input>
+            </form>
+            <form action="/action_page.php">
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" value="e.g. Michael"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" value="Doe"><br><br>
+                
+            </form> 
+            <form id="message-box">
+            
+                <textarea rows="4" cols="50" name="message" form="message-box">
+                    Type your message here...</textarea>
+            <input type="submit" value="Submit">
+        </form>
+              
+        </section>
+    </body>
+</html>
