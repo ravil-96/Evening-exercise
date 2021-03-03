@@ -1,0 +1,25 @@
+{
+  "name": "exerciseEvening",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"watchify ./index.js -o bundle.js\" \"python -m http.server\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ravil-96/Evening-exercise.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ravil-96/Evening-exercise/issues"
+  },
+  "homepage": "https://github.com/ravil-96/Evening-exercise#readme",
+  "devDependencies": {
+    "concurrently": "^6.0.0",
+    "watchify": "^4.0.0"
+  }
+}
